@@ -1,2 +1,2 @@
 # excursion
-# This is a capstone project from Codecademy
+This is a capstone project from Codecademy
