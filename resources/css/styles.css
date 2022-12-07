@@ -23,7 +23,7 @@ body{
     font-size: 3.125rem;
     color: white;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .header h3{
@@ -37,3 +37,34 @@ body{
 }
 
 /*Personal travel Guide section */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding-top: 2rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 2.625rem;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.main p {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+
+}
+
+.camp img{
+    width: 80%;
+
+}
