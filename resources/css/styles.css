@@ -1,10 +1,17 @@
 /*Universal Rules set*/
 html{
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
     background-color: black;
+}
+
+#greenLink{
+    font-size: 1rem;
+    color: aquamarine;
+   padding: 1rem 0 1rem 0;
 }
 
 /*header*/
@@ -18,7 +25,6 @@ body{
 }
 
 .header h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 3.125rem;
     color: white;
@@ -28,12 +34,6 @@ body{
 
 .header h3{
     padding-top: 3rem;
-}
-
-#greenLink{
-    font-size: 1rem;
-    color: aquamarine;
-
 }
 
 /*Personal travel Guide section */
@@ -52,13 +52,11 @@ body{
 .main h1 {
     font-size: 2.625rem;
     font-weight: 300;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 1rem;
 }
 
 .main p {
     color: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3rem;
     padding-bottom: 1rem;
 
@@ -67,4 +65,28 @@ body{
 .camp img{
     width: 80%;
 
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer h1 {
+    font-weight: 300;
+    font-size: 2.625rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.copy{
+    
+    color: gray;
+    padding: 1rem;
+    text-align: right;
 }
